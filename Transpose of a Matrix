@@ -6,7 +6,7 @@ int a[10][10], transpose[10][10], r, c, i, j;
 printf("Enter rows and columns of matrix: "); 
 scanf("%d %d", &r, &c);
 
-// Storing elements elements of element a
+// Storing elements of Matrix a
 printf("\nEnter matrix:\n"); 
 for(i=0; i<r; ++i)
 {   for(j=0; j<c; ++j)
@@ -16,7 +16,7 @@ for(i=0; i<r; ++i)
     }
 }
 
-// Displaying the matrix a
+// Displaying the Matrix a
 printf("\nEntered Matrix: \n"); 
 for(i=0; i<r; ++i)
 {   for(j=0; j<c; ++j)
@@ -25,7 +25,7 @@ for(i=0; i<r; ++i)
     }printf("\n");
 }
 
-// Finding the transpose of matrix a
+// Finding the transpose of Matrix a
 for(i=0; i<r; ++i)
 {   for(j=0; j<c; ++j)
     {
