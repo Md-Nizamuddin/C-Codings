@@ -29,7 +29,7 @@ for(i=0; i<r; ++i)
 for(i=0; i<r; ++i)
 {   for(j=0; j<c; ++j)
     {
-        s[j][i] = a[i][j]+b[i][j];
+        s[i][j] = a[i][j]+b[i][j];
     }
 }
 
